@@ -8,7 +8,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "containerDefinitions": [
     {
-      "name": "flask-app",
+      "name": "flask-ecs-demo",
       "image": "<IMAGE_URI>",
       "essential": true,
       "portMappings": [
