@@ -1,8 +1,8 @@
 {
   "family": "flask-ecs-demo",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::820242934506:role/ecsTaskExecutionRole",
-  "taskRoleArn": "arn:aws:iam::820242934506:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::<user-account-id>:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::<user-account-id>:role/ecsTaskExecutionRole",
   "cpu": "256",
   "memory": "512",
   "requiresCompatibilities": ["FARGATE"],
